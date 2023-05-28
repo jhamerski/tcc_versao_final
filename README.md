@@ -1,6 +1,8 @@
-# TCC 2022-2023 IESGF
+# <h1 align="center">TCC 2022/2023 - Web scraping para detecção das oportunidades de compra em e-commerce</h1>
 
-Este documento apresenta o protótipo desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) do curso de Ciência da Computação da IESGF, referente ao ano letivo de 2022-2023. O objetivo do protótipo é demonstrar a solução proposta, que consiste em uma API para coleta de dados produtos/ofertas do site Mercado Livre.
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
+
+Este projeto consiste na implementação de um web scraping voltado para a detecção de oportunidades de compra em e-commerce. O objetivo principal é coletar dados do Mercado Livre de forma automatizada e disponibilizar informações relevantes sobre estes produtos/ofertas. Essas informações podem ser usadas de diferentes maneiras, permitindo aos usuários encontrar oportunidades de compra.
 
 ## Requisitos
 Python versão 3.10.6
@@ -26,6 +28,7 @@ venv\Scripts\activate
 ```shell
 pip install -r requirements.txt
 ```
+
 ---
 ## Configuração
 Antes de executar o projeto, é necessário preencher as variáveis de configuração no arquivo `core/config.py`. Esse arquivo contém as configurações necessárias para o funcionamento do projeto.
@@ -36,7 +39,7 @@ Antes de executar o projeto, é necessário preencher as variáveis de configura
 ```shell
 python main.py
 ```
-2. Acesse os endpoints da API através do endpoint:
+2. Acesse os endpoints da API através do endereco:
 ```shell
 http://localhost:8000/docs
 ```
@@ -63,10 +66,41 @@ project/
 │           └── ml.py
 ├── models/
 │   └── url_model.py
-├── configs_ws.txt
 ├── indisponiveis.py
 ├── install_scrapy.txt
 ├── main.py
 ├── requirements.txt
 └── ws_tcc.py
 ```
+---
+# :hammer: Funcionalidades do projeto
+
+- `Funcionalidade 1`: Consultar quantidades de monitoramentos realizados.
+- `Funcionalidade 2`: Adicionar novo produto/oferta.
+- `Funcionalidade 3`: Histórico referente variações de valores dos produtos/ofertas.
+- `Funcionalidade 4`: Verificar último valor do produto/oferta e quando ocorreu a última consulta realizada.
+- `Funcionalidade 5`: Consultar produtos/ofertas indisponíveis.
+
+---
+## ✔️ Tecnologias utilizadas
+
+- ``Virtual Private Server (VPS) - Linux``
+- ``Python``
+- ``MongoDB``
+- ``FastAPI``
+- ``Framework Scrapy``
+
+---
+## 📁 Acesso ao projeto
+Você pode acessar os endpoints clicando [aqui](https://tcc.devja.com.br/docs).
+
+---
+### Autor
+
+<a href="https://jonas.devja.com.br/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/43897983?v=4" width="100px;" alt=""/>
+ <br />
+<sub><b>Jonas Hamerski</b></sub></a> 🚀
+
+[![Linkedin Badge](https://img.shields.io/badge/-Jonas-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonas-hamerski-975552184/)](https://www.linkedin.com/in/jonas-hamerski-975552184/) 
+[![Gmail Badge](https://img.shields.io/badge/-jonashamerski87@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jonashamerski87@gmail.com)](mailto:jonashamerski87@gmail.com)
