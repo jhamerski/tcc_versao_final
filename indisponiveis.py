@@ -123,7 +123,7 @@ def update_price(url, price, titulo):
         pass 
 
 
-def web_scraping_tcc():
+def indisponiveis():
     filtro = {
         'error_monitoramento': {'$gt': 1}
     }
@@ -131,7 +131,7 @@ def web_scraping_tcc():
     # Construindo o pipeline da agregação
     pipeline = [
         {'$match': filtro},
-        {'$sort': {'ultima_consulta_em': -1}},
+        {'$sort': {'ultima_consulta_em': 1}},
         {'$limit': 1}
     ]
 
@@ -170,7 +170,7 @@ def close_connection():
 def main():
     try:
         start_browser(True)
-        web_scraping_tcc()
+        indisponiveis()
     finally:
         close_connection()
 
