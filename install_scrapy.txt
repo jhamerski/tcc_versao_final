@@ -1,0 +1,6 @@
+pip install scrapy
+scrapy startproject mercadolivre
+cd mercadolivre
+scrapy genspider ml mercadolivre.com.br
+
+scrapy crawl ml -o coleta.json

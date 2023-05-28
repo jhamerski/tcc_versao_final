@@ -1,0 +1,26 @@
+project/
+├── api/
+│   └── v1/
+│       ├── repository/
+│       │   ├── create_url_repository.py
+│       │   └── ...
+│       ├── routers/
+│       │   ├── create_url.py
+│       │   └── ...
+│       └── api.py
+├── core/
+│   ├── config.py # este arquivo precisa ser criado, variaveis para o funcionamento do projeto
+│   ├── db_connection.py
+│   └── security.py
+├── mercadolivre/
+│   └── mercadolivre/
+│       └── spiders/
+│           └── ml.py
+├── models/
+│   └── url_model.py
+├── configs_ws.txt
+├── indisponiveis.py
+├── install_scrapy.txt
+├── main.py
+├── requirements.txt
+└── ws_tcc.py

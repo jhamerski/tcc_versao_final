@@ -1,0 +1,21 @@
+# Arquivos Python compilados
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Arquivos de cache
+__pycache__/
+
+# Arquivos gerados pelo FastAPI
+dist/
+build/
+*.egg-info/
+
+# Arquivos relacionados ao MongoDB
+*.bson
+*.lock
+
+# Arquivos relacionados ao Scrapy
+.scrapy/

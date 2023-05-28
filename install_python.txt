@@ -1,0 +1,7 @@
+python version 3.10.6
+python --version
+virtualenv venv
+source venv/bin/activate (linux)
+venv\Scripts\activate (windows)
+(venv) - seu_local
+pip install -r requirements.txt
