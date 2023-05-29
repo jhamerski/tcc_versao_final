@@ -1,0 +1,8 @@
+# Diariamente as 04:00 verifica o certificado 
+0 4 * * * certbot renew
+
+# A cada minuto verifica os produtos/ofertas indisponiveis
+* * * * * /PASTA_DA_VENV/venv/bin/python /PASTA_DA_VENV/indisponiveis.py
+
+# A cada minuto verifica os produtos/ofertas indisponiveis
+0 */3 * * * /PASTA_DA_VENV/venv/bin/python /PASTA_DA_VENV/ws_tcc.py
