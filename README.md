@@ -39,7 +39,7 @@ Antes de executar o projeto, é necessário preencher as variáveis de configura
 ```shell
 python main.py
 ```
-2. Acesse os endpoints da API através do endereco:
+2. Acesse os endpoints da API através do endereço:
 ```shell
 http://localhost:8000/docs
 ```
@@ -75,7 +75,7 @@ project/
 ---
 # :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: Consultar quantidades de monitoramentos realizados.
+- `Funcionalidade 1`: Consultar quantidades de monitoramentos realizados pelo Web Scraping.
 - `Funcionalidade 2`: Adicionar novo produto/oferta.
 - `Funcionalidade 3`: Histórico referente variações de valores dos produtos/ofertas.
 - `Funcionalidade 4`: Verificar último valor do produto/oferta e quando ocorreu a última consulta realizada.
